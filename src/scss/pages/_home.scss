@@ -1,0 +1,42 @@
+.content {
+  article {
+    & cta{
+      color: #2196f3;
+      &::after {
+        content: "\f178";
+        font: normal normal normal 14px/1 FontAwesome;
+      }
+      & a {
+        transition: ease-in-out 0.25s;
+        text-decoration: none;
+        color: inherit;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+      }
+      & a:hover {
+        margin-right: 10px;
+        transition: ease-in-out 0.25s;
+      }
+    }
+
+  }
+  & h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: lighten(#000, 20%);
+    text-transform: capitalize;
+    & small {
+      color: lighten(red, 10%);
+      font-size: 16px;
+      font-weight: inherit;
+      text-transform: uppercase;
+    }
+  }
+  & p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    line-height: 1.4;
+  }
+}

@@ -1,0 +1,31 @@
+.content {
+  margin: 0px;
+  article {
+    margin: 50px 0px 25px 0px;
+  }
+}
+
+@media only screen and (min-width: $breakpoint-lg) {
+  .sidebar {
+    display: block;
+  }
+  .content {
+    margin-left: 39.0833333333%;
+    padding: 5% 0% 5% 10%;
+    article {
+      margin: 0px 0px 50px 0px;
+    }
+  }
+}
+@media only screen and (min-width: $breakpoint-xlg) {
+  .sidebar {
+    display: block;
+  }
+  .content {
+    margin-left: 39.0833333333%;
+    padding: 5% 0% 5% 10%;
+    article {
+      margin: 0px 0px 50px 0px;
+    }
+  }
+}
